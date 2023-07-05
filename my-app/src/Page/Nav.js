@@ -19,7 +19,7 @@ function Nav() {
   };
 
   const handleSignOut = () => {
-    setUsername(''); 
+    setUsername('');
     setSignInStatus(false);
     navigate('/signin')
   };
@@ -36,7 +36,7 @@ function Nav() {
             <Link to="/menu" className="nav-link">Menu</Link>
           </li>
           <li className="nav-item">
-            <Link to="/bookingpage" className="nav-link">BookingPage</Link>
+            <Link to="/bookingpage" className="nav-link">Booking</Link>
           </li>
           <li className="nav-item">
             <Link to="/contact" className="nav-link">Contact</Link>

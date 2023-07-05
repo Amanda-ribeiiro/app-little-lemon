@@ -8,8 +8,8 @@ function Home() {
     <div className="container">
       <div className="row mx-auto">
         <div className="col-md-12 text-center mt-5">
-          <h2 className="mb-4" style={{ fontFamily: 'Verdana', fontSize: '24px', fontStyle: 'italic' }}>
-            Welcome to our Restaurant
+          <h2 className="mb-4" style={{ fontFamily: 'Verdana', fontSize: '24px'}}>
+            Welcome to Little Lemon Restaurant
           </h2>
           <img
             src={restaurantImage}
@@ -21,8 +21,8 @@ function Home() {
       </div>
 
       <div className="row mt-5 mb-5">
-        <h2 className="text-center mb-3" style={{ fontFamily: 'Verdana', fontSize: '20px', fontStyle: 'italic' }}>
-          Our Chefs: Mario and Adrian
+        <h2 className="text-center mb-3" style={{ fontFamily: 'Verdana', fontSize: '18px'}}>
+        Our team is prepared to welcome you
         </h2>
         <div className="col-md-6">
           <img

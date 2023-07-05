@@ -26,7 +26,7 @@ function App() {
       <Header />
       <Nav />
       <main className="flex-grow-1">
-  
+
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/menu' element={<Menu />} />
@@ -40,7 +40,7 @@ function App() {
         <Route path="/confirmorder" element={<ConfirmOrder />} />
 
       </Routes>
-     
+
       </main>
       <Footer />
     </div>
